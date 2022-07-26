@@ -1,196 +1,214 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Developer Landing Page</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Static Template</title>
+  <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
-    <!-- Header Starts -->
-    <header>
-        <!-- Navigation Bar Starts -->
-        <nav>
-            <!-- Navigation items Starts -->
-            <a class="nav-item">Home</a>
-            <a class="nav-item">APIs</a>
-            <a class="nav-item">Blogs</a>
-            <a class="nav-item">Forums</a>
-            <a class="nav-item">LogIn</a>
-            <a class="nav-item-active">Sign Up</a>
-            <svg class="nav-item" width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path fill-rule="evenodd" clip-rule="evenodd" d="M8.85903 8.24401L11.816 11.321L11.815 11.322C11.991 11.4877 12.0614 11.7369 11.9982 11.9703C11.9349 12.2036 11.7483 12.3831 11.5127 12.4372C11.2771 12.4914 11.0308 12.4113 10.872 12.229L7.89103 9.12901C7.04998 9.72236 6.04531 10.0397 5.01603 10.037C2.66419 10.0372 0.627975 8.40344 0.118589 6.10743C-0.390797 3.81142 0.763438 1.46979 2.89472 0.475412C5.02599 -0.518963 7.56198 0.100953 8.99418 1.96641C10.4264 3.83187 10.3702 6.44192 8.85903 8.24401ZM8.44412 3.59725C7.86941 2.21135 6.51636 1.3082 5.01603 1.30901C2.9693 1.31231 1.31123 2.97128 1.30903 5.01801C1.30903 6.51834 2.21291 7.8709 3.59912 8.44487C4.98532 9.01883 6.58078 8.70114 7.64139 7.63996C8.702 6.57878 9.01883 4.98314 8.44412 3.59725Z" fill="white"/>
-            </svg>
-        </nav>
+  <section class="topbar">
+    <!-- ----------------navbar---------------- -->
+    <nav>
+      <img src="./images/Logo.png" alt="" class="logo">
+      <ul class="nav-items">
+        <a href="#">
+          <li class="nav-item">Home</li>
+        </a>
+        <a href="#">
+          <li class="nav-item">API's</li>
+        </a>
+        <a href="#">
+          <li class="nav-item">Blogs</li>
+        </a>
+        <a href="#">
+          <li class="nav-item">Forum</li>
+        </a>
+        <a href="#">
+          <li class="nav-item">Log in</li>
+        </a>
+        <a href="#" class="btn">
+          <li class="nav-item btn">Sign Up</li>
+        </a>
+        <a href="#">
+          <li class="nav-item"><img src="./images/icons8-search.svg" alt=""></li>
+        </a>
+        <img src="./images/icons8-close.svg" alt="" class="close__icon">
+      </ul>
+      <img src="./images/icons8-menu.svg" alt="" class="menu__icon">
+    </nav>
+    <!-- X-------X------navbar ended -----X---------X-->
 
-        <!-- LOGO -->
-        <div >
-            <img class="logo" src="./images/Logo.png" >
+    <!-- ----------------text with image----------- -->
+    <div class="text__with__img">
+      <div class="text">
+        <div class="top__text">
+          <span class="flat__line"></span>
+          <h1 class="text__head">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+          </h1>
+          <p class="text__secondary">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+          </p>
         </div>
-
-        <!-- Text -->
-        <div class="header-text">
-            <img src="./images/Rectangle_12.png">
-            <h2>
-                Lorem ipsum dolor sit amet, <br>consectetur adipiscing elit.
-            </h2>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </p>
+        <div class="bottom__text">
+          <div class="company__div">
+            <h2>Company One</h2>
+            <h2>Company Two</h2>
+            <h2>Company Three</h2>
+          </div>
         </div>
-
-        <!-- Image -->
-        <div>
-            <img class="header-image" src="./images/IMAGE HERE.png">
-        </div>
-    </header>
-    <!-- Companies -->
-    <div class="companies">
-        <a href="#" class="company-items">Company One</a>
-        <a href="#" class="company-items">Company Two</a>
-        <a href="#" class="company-items">Company Three</a>
+      </div>
+      <img src="./images/IMAGE HERE.png" alt="" class="side__img">
     </div>
+  </section>
 
-    <!-- API Section -->
-    <div class="api">
-        <h1 class="api-heading">APIs <br> by category</h1>
-    <!-- Cards -->
-        <div class="cards">
-            <!-- Card 01 -->
-            <div class="card-active">
-                <img class="card-logo" src="./images/Group 97.png">
-                <h3 class="card-head-active">Identity & <br> Security</h3>
-                <p class="card-body">Lorem ipsum dolor sit amt, <br> consectetur adipiscing.</p>
-            </div>
-            <!-- Card 02 -->
-            <div class="card">
-                <img class="card-logo" src="./images/Group 98.png">
-                <h3 class="card-head">Data & <br> Analytics</h3>
-                <p class="card-body">Lorem ipsum dolor sit amt, <br> consectetur adipiscing.</p>
-            </div>
-            <!-- Card 03 -->
-            <div class="card">
-                <img class="card-logo" src="./images/Group 99.png">
-                <h3 class="card-head">Commercial</h3>
-                <p class="card-body">Lorem ipsum dolor sit amt, <br> consectetur adipiscing.</p>
-            </div>
-            <!-- Card 04 -->
-            <div class="card">
-                <img class="card-logo" src="./images/Group 100.png">
-                <h3 class="card-head">Offers & <br> Benefits</h3>
-                <p class="card-body">Lorem ipsum dolor sit amt, <br> consectetur adipiscing.</p>
-            </div>
-            <!-- Card 05 -->
-            <div class="card">
-                <img class="card-logo" src="./images/Group 101.png">
-                <h3 class="card-head">Payment <br> Methods</h3>
-                <p class="card-body">Lorem ipsum dolor sit amt, <br> consectetur adipiscing.</p>
-            </div>
-
-        </div>        
+  <!-- --------------------API category section------------------- -->
+  <section class="api__categories">
+    <h1>APIs<br>by Catergory</h1>
+    <div class="card__container">
+      <div class="card">
+        <div class="card__img">
+          <img src="./images/Group 97.png" alt="img">
+        </div>
+        <div class="card__text">
+          <h2>Identity & Security</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card__img">
+          <img src="./images/Group 98.png" alt="img">
+        </div>
+        <div class="card__text">
+          <h2>Data<br> & Analytics</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card__img">
+          <img src="./images/Group 99.png" alt="img">
+        </div>
+        <div class="card__text">
+          <h2>Commercial<br /><br></h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card__img">
+          <img src="./images/Group 100.png" alt="img">
+        </div>
+        <div class="card__text">
+          <h2>Offers<br> & Benefits</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card__img">
+          <img src="./images/Group 101.png" alt="img">
+        </div>
+        <div class="card__text">
+          <h2>Payment Methods</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        </div>
+      </div>
+      <div class="navigation__icon">
+        >
+      </div>
     </div>
+  </section>
+  <!-- -----------blog section ------------ -->
+  <section class="blog">
+    <h1>Latest<br>blog article</h1>
+    <div class="blog__container">
+      <div class="blog__post">
+        <div class="blog__img">
+          <img src="./images/Rectangle.png" alt="">
+        </div>
+        <div class="blog__content">
+          <span class="article_date">06 Aug 2019</span>
+          <h2>Custome-made<br>loyalty programme</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium ratione voluptatum quaerat sapiente
+            labore harum dolores maxime optio modi! Iure.</p>
+          <div class="author">
+            <img src="./images/IMAGE HERE (2).png" alt=""><span class="author_name">Bobby Wagner</span>
+          </div>
+        </div>
+      </div>
 
-    <!-- Blog section -->
-    
-    <div class="blog-heading">
-            <h1>Latest <br> blog article</h1>
+      <div class="blog__post">
+        <div class="blog__img">
+          <img src="./images/Rectangle Copy.png" alt="">
+        </div>
+        <div class="blog__content">
+          <span class="article_date">06 Aug 2019</span>
+          <h2>You can<br>traveling with ease</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium ratione voluptatum quaerat sapiente
+            labore harum dolores maxime optio modi! Iure.</p>
+          <div class="author">
+            <img src="./images/IMAGE HERE (2).png" alt=""><span class="author_name">Gloria Graham</span>
+          </div>
+        </div>
+      </div>
     </div>
-        <!-- Blogs -->
-    <div class="blog-cards">
-            <!-- Blog card 01 -->
-        <div class="blog-card">
-                <div class="blog-image">
-                    <img src="./images/Rectangle.png" alt="" >
-                </div>
-                <div class="blog-content">
-                    <h6 >06 Aug 2019</h6>
-                    <h3 >Custom-made <br> loyalty programme</h3>
-                    <small>Lorem ipsum dolor sit amet <br>consectetur adipisicing elit. <br> consectetur adipisicing elit. <br>Lorem ipsum dolor sit amet</small>
-                </div>
-                <div class="blog-bottom">
-                    <img class="blog-card-bottom-image" src="./images/IMAGE HERE (2).png" alt="">
-                </div>
-                <div class="blog-author">
-                    <b class="blog-author">Bobby Wagner</b>
-                </div>
-                
-            </div>
+  </section>
 
-            <!-- Blog card 02 -->
+  <!-- ---------------------------contact us section-------------- -->
+  <section class="contact__us">
+    <h1>Have<br> a question?</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur deserunt ipsa nam voluptatibus natus
+      incidunt.</p>
+    <h3>Do you have question about anything ?</h3>
+    <button class="btn__primary">
+      Contact Us
+    </button>
+  </section>
 
-            <div class="blog-card">
-                <div class="blog-image">
-                    <img src="./images/Rectangle Copy.png" alt="" >
-                </div>
-                <div class="blog-content">
-                    <h6 >08 Aug 2019</h6>
-                    <h3 >You can <br> travel with ease</h3>
-                    <small>Lorem ipsum dolor sit amet <br>consectetur adipisicing elit. <br> consectetur adipisicing elit. <br>Lorem ipsum dolor sit amet</small>
-                </div>
-                <div class="blog-bottom">
-                    <img class="blog-card-bottom-image" src="./images/IMAGE HERE (2).png" alt="">
-                </div>
-                <div class="blog-author">
-                    <b class="blog-author">Gloria Graham</b>
-                </div>
-                
-            </div>
-        </div>
+  <!-- ------------------download section--------------- -->
+  <section class="download__section">
+    <div class="left__side">
+      <h2>Download <span>Now</span></h2>
+    </div>
+    <div class="right__side">
+      <div class="input__btn">
+        <input type="email" name="email" placeholder="Enter your email address" id="">
+        <button class="btn__primary">Download</button>
+      </div>
+    </div>
+  </section>
 
-        <!-- FAQ SECTION -->
-        <div class="faq-section">
-            <div class="faq-content">
-                <h2>Have <br> a question</h2>
-                <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique mollitia <br>nam animi exercitationem et eum enim nulla veritatis,</h4>
-                <h4>Do you have any question about anythings ?</h4>
+  <!-- --------------FOOTER START---------------- -->
+  <footer>
+    <div class="footer__left">
+      <img src="./images/Logo.png" alt="">
+      <ul class="footer__items">
+        <li class="footer__item">@lorem ipsum</li>
+        <li class="footer__item">Home</li>
+        <li class="footer__item">APIS</li>
+        <li class="footer__item">Blogs</li>
+        <li class="footer__item">Forums</li>
+      </ul>
+    </div>
+    <div class="footer__right">
+      <ul class="footer__icons">
+        <li class="social__icons"><img src="./images/Group 102.png" alt=""></li>
+        <li class="social__icons"><img src="./images/Group 103.png" alt=""></li>
+        <li class="social__icons"><img src="./images/Group 104.png" alt=""></li>
+      </ul>
+      <ul class="footer__links">
+        <li class="footer__link">FAQ</li>
+        <li class="footer__link">Bussiness</li>
+        <li class="footer__link">Help</li>
+      </ul>
 
-                <button >Contact Us</button>
-            </div>
-            <div class="faq-image">
-                <img src="./images/Rectangle_38-2 (1).png" alt="">
-            </div>
-        </div>
+    </div>
+  </footer>
 
-        <!-- Download -->
-        <div class="download-section">
-            <div class="download-content">
-                <h1>Download <span> Now</span></h1>
-            </div>
-            <div class="download-email">
-                <form>
-                    <input placeholder="Enter your email address"/>
-                    <button>Download</button>
-                  </form>
-            </div>
-        </div>
-
-        <!-- Download -->
-        <div class="footer-section">
-            <div class="footer-left">
-                <img class="footer-logo"src="./images/Logo.png" alt="">
-                <ul class="list">
-                    <li class="list-items">@lopem ipsum</li>
-                    <li class="list-items">Home</li>
-                    <li class="list-items">APIs</li>
-                    <li class="list-items">Blogs</li>
-                    <li class="list-items">Forums</li>
-                </ul>
-            </div>
-
-            <div class="footer-right">
-                <div class="footer-right">
-                    <img class="footer-logos" src="./images/Group 102.png" alt="">
-                    <img class="footer-logos" src="./images/Group 103.png" alt="">
-                    <img class="footer-logos" src="./images/Group 104.png" alt="">
-                </div>
-                <ul class="logos-list">
-                    <li class="list-items">FAQ</li>
-                    <li class="list-items">Business</li>
-                    <li class="list-items">Help</li>
-                </ul>
-            </div>
-            
-        </div>
+  <!-- basic script file -->
+  <script src="./script.js"></script>
 </body>
+
 </html>
